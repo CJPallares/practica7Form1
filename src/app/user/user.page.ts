@@ -8,7 +8,7 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class UserPage implements OnInit {
 
-  private user: any;
+  user: any;
   private numero: number;
   /*
   Esta página recibe parámetros de la anterior dentro de 'queryParams'
